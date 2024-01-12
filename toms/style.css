@@ -1,0 +1,194 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #89cff0;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    max-width: 100%;
+    height: 60px;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Product Styles */
+.product {
+    border: transparent;
+    background-color: #fef9ff;
+    padding: 20px;
+    width: calc(100% / 2 - 20px);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Success Message Styles */
+.success-message {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.success {
+    display: block;
+    color: green;
+    font-weight: bold;
+}
+
+/* Button Styles */
+.button {
+    border: transparent;
+    background-color: #89cff0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Reservation Styles */
+.reserve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.reservation-form form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.reservation-form form label {
+    margin-bottom: 5px;
+    text-align: center;
+    display: block;
+}
+
+.reservation-form form input[type="text"],
+.reservation-form form input[type="email"],
+.reservation-form form input[type="date"],
+.reservation-form form input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.reservation-form form input[type="submit"] {
+    background-color: #71c6ee;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.reservation-form form input[type="submit"]:hover {
+    background-color: #71c6ee;
+}
+
+/* Registration Styles */
+.registration-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.registration-form {
+    width: 30%;
+    margin: 50px auto 0;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Login Styles */
+.login-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0
+}
